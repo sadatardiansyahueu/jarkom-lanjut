@@ -1,5 +1,7 @@
 Nama : Sadat Ardiansyah
+
 Nim : 20210801180
+
 UTS Jaringan Komputer Lanjut
 
 1.) Menurut saya, Routing static adalah metode untuk mengatur jalur lalu lintas data di jaringan komputer dengan cara menetapkan jalur secara manual oleh admin jaringan. 

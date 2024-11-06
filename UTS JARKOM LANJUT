@@ -7,7 +7,8 @@ Nim : 20210801180
 Di sini, setiap rute atau jalur ditentukan secara eksplisit tanpa adanya perubahan otomatis, sehingga perangkat jaringan (seperti router) hanya mengikuti rute yang telah dikonfigurasi.
 
 2.) Menurut saya, Routing dinamis lebih mudah dilakukan daripada routing statik dan default. 
-Karena itu, router melakukan routing dinamis dengan membuat jalur komunikasi data otomatis sesuai dengan perubahan topologi jaringan. Dalam protokol suite TCP/IP, routing dinamis berada pada lapisan network jaringan komputer. 
+Karena itu, router melakukan routing dinamis dengan membuat jalur komunikasi data otomatis sesuai dengan perubahan topologi jaringan. 
+Dalam protokol suite TCP/IP, routing dinamis berada pada lapisan network jaringan komputer. 
 
 3.) Menurut saya, Pada dasarnya, firewall adalah perangkat lunak yang diinstal di dalam komputer dan digunakan untuk meningkatkan keamanan perangkat yang terhubung ke jaringan internet. 
 Fungsi firewall adalah untuk melindungi jaringan dari berbagai jenis virus dan serangan siber, yang dapat sangat merusak data dan menyebabkan kerugian besar.

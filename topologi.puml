@@ -1,0 +1,40 @@
+@startuml
+
+title Topologi Jaringan dengan Routing RIP
+title Universitas Esa Unggul \n Nama: Sadat Ardiansyah \n NIM: 20210801180 \n Jarkom Lanjut UTS
+
+' Define Routers
+node "Router 1 KJ" as R1 {
+  [Ether 2: 192.168.20.1/24] 
+  [Ether 3: 10.10.10.2/24] 
+  [Ether 3: 15.15.15.2/24]
+}
+
+node "Router 2 CR" as R2 {
+  [Ether 2: 192.168.21.1/24]
+  [Ether 3: 10.10.10.1/24]
+  [Ether 4: 25.25.25.2/24]
+}
+
+node "Router 3 KHI" as R3 {
+  [Ether 2: 192.168.23.1/24]
+  [Ether 3: 15.15.15.1/24]
+  [Ether 4: 25.25.25.1/24]
+}
+
+' Define Laptops
+actor Laptop1 as L1
+actor Laptop2 as L2
+actor Laptop3 as L3
+
+' Connect Laptops to Routers
+L1 -- R1 : Subnet 192.168.20.0/24
+L2 -- R2 : Subnet 192.168.21.0/24
+L3 -- R3 : Subnet 192.168.23.0/24
+
+' Define Inter-router connections
+R1 -- R2 : Subnet 10.10.10.0/24
+R1 -- R3 : Subnet 15.15.15.0/24
+R2 -- R3 : Subnet 25.25.25.0/24
+
+@enduml
